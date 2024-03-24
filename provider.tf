@@ -6,8 +6,8 @@ terraform {
     }
   }
   backend "s3"{
-  bucket = "tfstate-ssr-bucket"
-  key = "eksctl"
+  bucket = "kube-buckk"
+  key = "creatingkuber"
   region = "us-east-1"
   dynamodb_table = "robo-dev"
 }
